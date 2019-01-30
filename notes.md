@@ -20,7 +20,15 @@ Simplification:
  }`
 
 
-##Modules 
+## Modules 
  - Components can be grouped in modules. 
  - Only files of targeted modules are loaded.
  - Objects from modules are only available in the module where they are registered.
+
+Q : diff between `npm start` & `ng serve`?
+
+## bootstrap
+In angular.js, pointeur vers main.ts ("main": "src/main.ts").
+In main.ts : 
+`platformBrowserDynamic().bootstrapModule(AppModule)` --> shows that application is bootstrap with AppModule.
+
