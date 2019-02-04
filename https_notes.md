@@ -13,4 +13,26 @@
 ## Barriers to setup https 
  - As perceived: Cost, Complexity to setup, speed (encryption/de-encryption), compatibility
  
+# HTTPS Fundamentals
+## Certificate authorities
+CA is an entity that issues digital certificates. Huge number of CAs.
+Local list of trusted CAs (windows) : certmgr.msc = local certificate manager --> trusted root certification authorities.
+Note : Firefox manages its own list.
+CA only issues certificate to the owner of the domain the certificate references.
+ 
+## SSL and TLS
+ssl v3 released in 1996, and POODLE attack in 2014 was it's death knell. 
+tls = Transport Layer Security, défined in 1999 as an upgrade of ssl v3. 1.2 in 2008 (1.3 still draft in 2017).
+
+Protocol used in a com' is chosen by negociation between client and server.
+
+HTTPS uses TLS.
+
+## TLS Handshake
+
+
+## Issuing certs for development
+
+
+        
 
